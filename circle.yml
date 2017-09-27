@@ -3,8 +3,8 @@ machine:
     PATH: "~/$CIRCLE_PROJECT_REPONAME/gradle-2.9/bin:$PATH"
     TERM: "dumb"
     ADB_INSTALL_TIMEOUT: "10"
-    GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xmx7G -XX:+HeapDumpOnOutOfMemoryError"'
-    _JAVA_OPTIONS: "-Xms7G -Xmx7G"
+    GRADLE_OPTS: '-Dorg.gradle.jvmargs="-Xms9G -Xmx9G -XX:+HeapDumpOnOutOfMemoryError"'
+    _JAVA_OPTIONS: "-Xms9G -Xmx9G"
 
 dependencies:
   pre:
